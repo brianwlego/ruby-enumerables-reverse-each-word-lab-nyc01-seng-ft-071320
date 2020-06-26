@@ -5,7 +5,7 @@ def reverse_each_word (sentence)
   reverse_string_sentence = ""
   string_sentence.collect do |word|
     
-    reverse_string_sentence << word.reverse!
+    word.reverse!
     end
 
 string_sentence.join(" ")
