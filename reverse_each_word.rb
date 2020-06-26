@@ -8,5 +8,5 @@ def reverse_each_word (sentence)
     reverse_string_sentence << word.reverse!
     end
 
-string_sentence
+string_sentence.join
 end 
