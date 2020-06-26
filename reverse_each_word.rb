@@ -5,7 +5,7 @@ def reverse_each_word (sentence)
   binding.pry
   string_sentence.collect do |word|
     binding.pry
-    word.reverse! }
+    word.reverse!
     end
 
   binding.pry
